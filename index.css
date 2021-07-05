@@ -1,29 +1,24 @@
 body {
   margin: 0%;
-  padding: 0%;
 }
 
 .navbar {
-  text-align: center;
   font-family: sans-serif;
-  
+  padding-inline-start: 0px;
   margin: 0%;
-  padding-left: 26px;
-  padding: 0%;
   color: black;
   background-color: #88c1d9;
-  width: 100%;
   list-style: none;
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
   position: relative;
   cursor: pointer;
 }
-
 ul li {
   float: left;
   display: inline-flex;
   padding: 0px 15px;
-  
+
   color: black;
   list-style: none;
 }
